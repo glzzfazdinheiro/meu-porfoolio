@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desenvolvedor Front-end | Landing Pages Profissionais</title>
-    <meta name="description" content="Desenvolvedor front-end especializado em landing pages rápidas e responsivas em HTML, CSS e JavaScript.">
-    <meta name="author" content="glzz">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Desenvolvedor Front-end | Landing Pages Profissionais">
-    <meta property="og:description" content="Criação de landing pages rápidas e responsivas em HTML, CSS e JavaScript.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="https://glzzportfolio.vercel.app/">
     <link rel="canonical" href="https://glzzportfolio.vercel.app/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    
+    <!-- Font Awesome (nova biblioteca) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Material Icons (mantido) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <!-- Fonte Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,161 +27,151 @@
         glzz<span class="sr-only"> Desenvolvedor Front-end</span>
     </h1>
 
-
     <nav class="nav" aria-label="Menu principal">
         <ul class="nav-links">
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre"><i class="fas fa-user"></i> Sobre</a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#projetos"><i class="fas fa-briefcase"></i> Projetos</a></li>
         </ul>
     </nav>
 
-    <a href="#contato" class="btn-contato">Contato</a>
+    <a href="#contato" class="btn-contato"><i class="fas fa-envelope"></i> Contato</a>
 </header>
 
 <main>
     <section id="sobre" class="sobre">
-    <div class="sobre-container">
-
-        <img 
-            src="img/perfil.png" 
-            alt="Foto do desenvolvedor front-end glzz" 
-            class="sobre-foto"
-        >
-
-        <h2>Sobre mim</h2>
-
-        <p class="typing-text" data-text="Sou desenvolvedor front-end focado na criação de landing pages modernas, rápidas e otimizadas para conversão. Trabalho com HTML, CSS e JavaScript, sempre buscando performance, SEO e um design limpo."></p>
-
-    </div>
-</section>
-
-<section id="skills" class="skills scroll-reveal">
-    <div class="skills-container">
-
-        <h2>Minhas Skills</h2>
-
-        <div class="skills-grid">
-
-            <div class="skill-card scroll-reveal">
-                <span class="material-symbols-outlined">code</span>
-                <span>HTML5</span>
-            </div>
-
-            <div class="skill-card scroll-reveal">
-                <span class="material-symbols-outlined">palette</span>
-                <span>CSS3</span>
-            </div>
-
-            <div class="skill-card scroll-reveal">
-                <span class="material-symbols-outlined">javascript</span>
-                <span>JavaScript</span>
-            </div>
-
-            <div class="skill-card scroll-reveal">
-                <span class="material-symbols-outlined">search</span>
-                <span>SEO</span>
-            </div>
-
-            <div class="skill-card scroll-reveal">
-                <span class="material-symbols-outlined">devices</span>
-                <span>Responsivo</span>
-            </div>
-
+        <div class="sobre-container">
+            <img 
+                src="img/perfil.png" 
+                alt="Foto do desenvolvedor front-end glzz" 
+                class="sobre-foto"
+            >
+            <h2><i class="fas fa-user-circle"></i> Sobre mim</h2>
+            <p class="typing-text" data-text="Sou desenvolvedor front-end focado na criação de landing pages modernas, one page, rápidas e otimizadas para conversão. Trabalho com HTML, CSS e JavaScript, sempre buscando performance, responsividade e um design limpo."></p>
         </div>
+    </section>
 
-    </div>
-</section>
-
-<section id="projetos" class="projetos scroll-reveal">
-    <div class="projetos-container">
-
-        <h2>Projetos</h2>
-
-        <div class="projetos-grid">
-
-            <article class="projeto-card scroll-reveal">
-                <img src="img/EM.png" alt="Landing page profissional em HTML e CSS">
-                <div class="projeto-info">
-                    <h3>Projeto em Desenvolvimento</h3>
-                    <p>
-                        Projeto em fase de desenvolvimento.
-                    </p>
-                    <a href="#" target="_blank">Ver projeto</a>
+    <section id="skills" class="skills scroll-reveal">
+        <div class="skills-container">
+            <h2><i class="fas fa-star"></i> Minhas Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card scroll-reveal">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
                 </div>
-            </article>
-
-            <article class="projeto-card scroll-reveal">
-                <img src="img/EM.png" alt="Landing page profissional em HTML e CSS">
-                <div class="projeto-info">
-                    <h3>Projeto em Desenvolvimento</h3>
-                    <p>
-                        Projeto em fase de desenvolvimento.
-                    </p>
-                    <a href="#" target="_blank">Ver projeto</a>
+                <div class="skill-card scroll-reveal">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
                 </div>
-            </article>
-
-            <article class="projeto-card scroll-reveal">
-                <img src="img/EM.png" alt="Landing page profissional em HTML e CSS">
-                <div class="projeto-info">
-                    <h3>Projeto em Desenvolvimento</h3>
-                    <p>
-                        Projeto em fase de desenvolvimento.
-                    </p>
-                    <a href="#" target="_blank">Ver projeto</a>
+                <div class="skill-card scroll-reveal">
+                    <i class="fab fa-js-square"></i>
+                    <span>JavaScript</span>
                 </div>
-            </article>
-
-        </div>
-
-    </div>
-</section>
-
-<section id="contato" class="contato">
-    <div class="contato-container">
-
-        <h2 class="contato-title">Contato</h2>
-
-        <div class="contato-card">
-            <div class="contato-icon email">
-                <span class="material-symbols-outlined">mail</span>
-            </div>
-            <div class="contato-info">
-                <strong>Email</strong>
-                <span>guizin3968@gmail.com</span>
+                <div class="skill-card scroll-reveal">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Responsivo</span>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="contato-card">
-            <div class="contato-icon telegram">
-                <span class="material-symbols-outlined">send</span>
-            </div>
-            <div class="contato-info">
-                <strong>Telegram</strong>
-                <span>@sarxjgkk</span>
+    <section id="projetos" class="projetos scroll-reveal">
+        <div class="projetos-container">
+            <h2><i class="fas fa-folder-open"></i> Projetos</h2>
+            <div class="projetos-grid">
+                <article class="projeto-card scroll-reveal">
+                    <div class="projeto-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Projeto em Desenvolvimento</h3>
+                        <p>Projeto em fase de desenvolvimento.</p>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Ver projeto</a>
+                    </div>
+                </article>
+                
+                <article class="projeto-card scroll-reveal">
+                    <div class="projeto-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Projeto em Desenvolvimento</h3>
+                        <p>Projeto em fase de desenvolvimento.</p>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Ver projeto</a>
+                    </div>
+                </article>
+                
+                <article class="projeto-card scroll-reveal">
+                    <div class="projeto-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Projeto em Desenvolvimento</h3>
+                        <p>Projeto em fase de desenvolvimento.</p>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Ver projeto</a>
+                    </div>
+                </article>
             </div>
         </div>
+    </section>
 
-        <div class="contato-card">
-            <div class="contato-icon github">
-                <span class="material-symbols-outlined">code</span>
+    <section id="contato" class="contato">
+        <div class="contato-container">
+            <h2 class="contato-title"><i class="fas fa-envelope-open-text"></i> Contato</h2>
+            
+            <div class="contato-card">
+                <div class="contato-icon email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contato-info">
+                    <strong>Email</strong>
+                    <span>guizin3968@gmail.com</span>
+                </div>
             </div>
-            <div class="contato-info">
-                <strong>GitHub</strong>
-                <span>glzzfazdinheiro</span>
+
+            <div class="contato-card">
+                <div class="contato-icon whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contato-info">
+                    <strong>Whatsapp</strong>
+                    <span>(44) 99161-0796</span>
+                </div>
+            </div>
+
+            <div class="contato-card">
+                <div class="contato-icon github">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="contato-info">
+                    <strong>GitHub</strong>
+                    <span>glzzfazdinheiro</span>
+                </div>
+            </div>
+            
+            <!-- Novo card para LinkedIn -->
+            <div class="contato-card">
+                <div class="contato-icon linkedin">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contato-info">
+                    <strong>LinkedIn</strong>
+                    <span>Adicionar perfil</span>
+                </div>
             </div>
         </div>
-
-    </div>
-</section>
-
+    </section>
 </main>
 
 <footer class="footer">
     <p>
-        © <span id="ano"></span> glzz. Todos os direitos reservados.
+        <i class="far fa-copyright"></i> <span id="ano"></span> glzz. Todos os direitos reservados.
     </p>
+    <div class="social-icons">
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
 </footer>
 
 <script src="script.js"></script>
